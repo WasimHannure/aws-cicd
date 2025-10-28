@@ -2,7 +2,7 @@ name: Deploy terraform code to aws
 
 on:
     schedule:
-      - cron: "23 5 * * *"
+      - cron: "26 10 * * *"
 
 jobs:
     deploy:
