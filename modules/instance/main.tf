@@ -9,6 +9,6 @@ resource "aws_instance" "instance" {
               systemctl start nginx
               EOF
   tags = {
-    Name = "module-instance"
+    Name = "gitaction-instance"
   }
 }
